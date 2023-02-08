@@ -1,34 +1,36 @@
-
 header {
-  text-align: center;
-  padding: 50px 0;
-}
+      text-align: center;
+      padding: 50px 0;
+    }
+    .menu {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin:0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
 
-.menu-container {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
+    .menu li {
+      margin: 0 10px;
+    }
 
-.menu {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
+    .menu a {
+      text-decoration: none;
+      color: #333;
+    }
+    .menu a:hover {
+      color: green;
+    }
 
-.menu li {
-  margin: 0 10px;
-}
-
-.menu a {
-  text-decoration: none;
-  color: #333;
-}
-
-aside {
-  width: 20%;
-  float: right;
-  padding: 50px;
-}
+    aside.sobremi {
+      float: left;
+      width: 20%;
+      padding: 10px;
+    }
+    section.recetas img {
+      width: 60%;
+      height: 60%;
+      object-fit: contain;
+    }
