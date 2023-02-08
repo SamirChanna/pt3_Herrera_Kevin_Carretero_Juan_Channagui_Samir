@@ -48,9 +48,10 @@ header {
 }
  .recetas3 {
   text-align: center;
+  float:right;
   width: 33%;
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 26px;
 
 }
 
@@ -58,7 +59,7 @@ header {
   text-align: center;
   width: 32%;
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 220px;
   float: right;
 }
 
@@ -66,7 +67,7 @@ h2 {
   font-size: 17px;
 }
 h1{
-font-size: 10px;
+font-size: 11px;
 }
 #hr2,#hr1 {
    border-color: #7ABA96;
