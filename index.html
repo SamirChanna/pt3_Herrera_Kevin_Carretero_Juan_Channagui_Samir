@@ -11,38 +11,11 @@
       text-align: center;
       padding: 50px 0;
     }
-
-    .menu-container {
-      width: 100%;
-      margin: 0;
-      text-align: center;
-      position: relative;
-    }
-
-    .menu-container::before,
-    .menu-container::after {
-      content: "";
-      position: absolute;
-      top: 50%;
-      width: 100%;
-      border-top: 1px solid #ccc;
-    }
-
-    .menu-container::before {
-      right: 100%;
-      margin-right: 15px;
-    }
-
-    .menu-container::after {
-      left: 100%;
-      margin-left: 15px;
-    }
-
     .menu {
       list-style: none;
       display: flex;
       justify-content: center;
-      margin: 0;
+      margin:0;
       padding: 0;
       position: relative;
       z-index: 1;
@@ -60,9 +33,9 @@
       color: green;
     }
 
-    aside {
-      width: 20%;
+    aside.receta1 {
       float: left;
+      width: 20%;
       padding: 50px;
     }
     .h2{
@@ -77,41 +50,45 @@
 
     </header>
 
-    <div class="menu-container">
-      <hr>
+    <hr>
       <ul class="menu">
-<li><a href="#">Inicio</a></li>
+        <li><a href="#">Inicio</a></li>
         <li><a href="#">Sobre mi</a></li>
         <li><a href="../receta/receta.html">Recetas</a></li>
         <li><a href="../contacto/contacto.html">Contacto</a></li>
         <li><a href="../listado/listado.html">Lista de receptes</a></li>
   </ul>
-  <hr>
-</div>
+        <hr/>
 
-    <aside class="receta1">
-        <main>
+   <aside class="receta1">
+  <main>
     <h1>Sobre mi</h1>
-    <p>Hola bienvenid@ a mi blog, un espacio donde </p>
-    </main>
+    <img src="imagenes/isagil.png" style="display:block; margin:auto;">
+    <p>Hola bienvenid@ a mi blog, un espacio donde
+    quiero compartir mis recetas vegetarianas</p>
+  </main>
+</aside>
 
-  <aside>
-    <p>Aquí podrás encontrar información adicional sobre nuestras deliciosas delicias.</p>
-  </aside>
-          <section class="recetas">
-      <h2>Delicia 1</h2>
-      <img src="imagenes/galletas.png" alt="Imagen de la primera delicia">
-      <p>Esta deliciosa delicia está hecha con los mejores ingredientes y es perfecta para compartir con amigos y familiares.</p>
-    </section>
-    </aside>
-  <aside>
-      <section class="receta2">
-      <h2>Delicia 2</h2>
-      <img src="imagenes/calabacines.png" alt="Imagen de la segunda delicia">
-      <p>Esta otra delicia es perfecta para los amantes de los postres dulces. Está hecha con ingredientes frescos y naturales.</p>
-    </section>
-  </aside>
-    
+<aside style="width:100%; display:block; margin:auto;">
+  <section class="recetas">
+    <h2></h2>
+    <img src="imagenes/galletas.png" alt="Imagen de la primera delicia" style="display:block; margin:auto;">
+    <p>Esta deliciosa delicia está hecha con los mejores ingredientes y es perfecta para compartir con amigos y familiares.</p>
+  </section>
+</aside>
+
+<aside style="width:100%; display:block; margin:auto;">
+  <section class="receta2">
+    <h2></h2>
+    <img src="imagenes/pasta.png" alt="Imagen de la segunda delicia" style="display:block; margin:auto;">
+    <p>Esta otra delicia es perfecta para los amantes de los postres dulces. Está hecha con ingredientes frescos y naturales.</p>
+  </section>
+</aside>
+
+<aside style="width:100%; display:block; margin:auto;">
+  <p>Aquí podrás encontrar información adicional sobre nuestras deliciosas delicias.</p>
+</aside>
 </body>
+
 </html>
 
