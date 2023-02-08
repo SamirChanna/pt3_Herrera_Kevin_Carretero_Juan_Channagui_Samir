@@ -1,19 +1,8 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+header {
+  text-align: center;
+  padding: 50px 0;
+}
 
 .menu-container {
   width: 80%;
@@ -36,4 +25,10 @@
 .menu a {
   text-decoration: none;
   color: #333;
+}
+
+aside {
+  width: 20%;
+  float: right;
+  padding: 50px;
 }
