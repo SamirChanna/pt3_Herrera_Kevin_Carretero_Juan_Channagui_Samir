@@ -7,40 +7,62 @@
     <link rel="stylesheet" href="estilo.css">
     <!--<script src='main.js'></script>-->
     <style>
-        header {
-          text-align: center;
-          padding: 50px 0;
-        }
+    header {
+      text-align: center;
+      padding: 50px 0;
+    }
 
-        .menu-container {
-          width: 80%;
-          margin: 0 auto;
-          text-align: center;
-        }
+    .menu-container {
+      width: 100%;
+      margin: 0;
+      text-align: center;
+      position: relative;
+    }
 
-        .menu {
-          list-style: none;
-          display: flex;
-          justify-content: center;
-          margin: 0;
-          padding: 0;
-        }
+    .menu-container::before,
+    .menu-container::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      border-top: 1px solid #ccc;
+    }
 
-        .menu li {
-          margin: 0 10px;
-        }
+    .menu-container::before {
+      right: 100%;
+      margin-right: 15px;
+    }
 
-        .menu a {
-          text-decoration: none;
-          color: #333;
-        }
+    .menu-container::after {
+      left: 100%;
+      margin-left: 15px;
+    }
 
-        aside {
-          width: 20%;
-          float: right;
-          padding: 50px;
-        }
-    </style>
+    .menu {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    .menu li {
+      margin: 0 10px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    aside {
+      width: 20%;
+      float: right;
+      padding: 50px;
+    }
+</style>
 </head>
 <body>
     <header>
@@ -52,8 +74,9 @@
       <hr>
       <ul class="menu">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Acerca de</a></li>
-        <li><a href="#">Servicios</a><li>
+        <li><a href="#">Sobre mi</a></li>
+        <li><a href="#">Recetas</a><li>
+        <li><a href="#">Contacto
 
   </ul>
   <hr>
