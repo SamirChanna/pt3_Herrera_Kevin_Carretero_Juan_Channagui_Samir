@@ -1,3 +1,18 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+  
+}
+
+body {
+  
+  margin: 0;
+  min-height: 100%;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit;
+
+}
+
 header {
       text-align: center;
       padding: 50px 0;
@@ -30,6 +45,7 @@ header {
       padding: 10px;
       margin-right: 40px;
       font-size: 16px;
+      text-align: justify;
     }
     .recetas1 {
   text-align: center;
@@ -56,10 +72,12 @@ header {
 }
 
 .recetas4 {
+  position: absolute;
+  top: 200px;
   text-align: center;
   width: 32%;
   display: inline-block;
-  margin-right: 220px;
+  margin-right: 0px;
   float: right;
 }
 
@@ -86,4 +104,43 @@ margin-bottom: 0;
 img {
   max-width: 100%;
 }
+
+
+
+footer {
+    position: fixed;
+    padding: 35px 0;
+    background-color: #000000;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  
+
+  .ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .ul li a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+
+  .ul li {
+    display: inline-block;
+    padding: 0 15px;
+  }
+
+  .ul li a:hover {
+    opacity: 1;
+  }
+
+}
+
 
