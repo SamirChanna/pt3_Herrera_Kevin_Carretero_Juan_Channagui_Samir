@@ -1,6 +1,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  position: relative;
 }
 
 body {
@@ -44,6 +45,7 @@ header {
       padding: 10px;
       margin-right: 40px;
       font-size: 16px;
+      text-align: justify;
     }
     .recetas1 {
   text-align: center;
@@ -104,10 +106,9 @@ img {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   padding: 35px 0;
   background-color: #000000;
-  position: absolute;
   right: 0;
   left: 0;
   bottom: 0;
