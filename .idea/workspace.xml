@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a36026d3-bbfe-4667-bcf9-249a0e57d6ea" name="Changes" comment="ok.">
+    <list default="true" id="a36026d3-bbfe-4667-bcf9-249a0e57d6ea" name="Changes" comment="facha">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/estilo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/estilo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,11 +106,40 @@
       <option name="project" value="LOCAL" />
       <updated>1675889520757</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ok.">
+      <created>1675894484834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675894484834</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ok.">
+      <created>1675894501648</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675894501648</updated>
+    </task>
+    <task id="LOCAL-00012" summary="facha">
+      <created>1675897286108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1675897286108</updated>
+    </task>
+    <task id="LOCAL-00013" summary="facha">
+      <created>1675897554089</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1675897554089</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ok." />
-    <option name="LAST_COMMIT_MESSAGE" value="ok." />
+    <MESSAGE value="facha" />
+    <option name="LAST_COMMIT_MESSAGE" value="facha" />
   </component>
 </project>
