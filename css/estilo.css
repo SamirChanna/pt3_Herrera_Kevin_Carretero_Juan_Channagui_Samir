@@ -107,40 +107,40 @@ img {
 
 
 
-footer {
-    position: fixed;
-    padding: 35px 0;
-    background-color: #000000;
-    right: 0;
-    left: 0;
-    bottom: 0;
-  
-
-  .ul {
-    margin-top: 0;
-    padding: 0;
-    list-style: none;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 0;
-    text-align: center;
-  }
-
-  .ul li a {
-    color: white;
-    text-decoration: none;
-    opacity: 0.8;
-  }
-
-  .ul li {
-    display: inline-block;
-    padding: 0 15px;
-  }
-
-  .ul li a:hover {
-    opacity: 1;
-  }
-
+footer{
+  position: fixed;
+  padding: 35px 0;
+  background-color: #000000;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
+
+.footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+.footer ul li a:hover {
+  opacity: 1;
+}
+
+
 
 
