@@ -108,8 +108,6 @@ img {
 
 
 footer {
-
-  
     position: fixed;
     padding: 35px 0;
     background-color: #000000;
@@ -118,7 +116,7 @@ footer {
     bottom: 0;
   
 
-  .footer ul {
+  .ul {
     margin-top: 0;
     padding: 0;
     list-style: none;
@@ -128,18 +126,18 @@ footer {
     text-align: center;
   }
 
-  .footer ul li a {
+  .ul li a {
     color: white;
     text-decoration: none;
     opacity: 0.8;
   }
 
-  .footer ul li {
+  .ul li {
     display: inline-block;
     padding: 0 15px;
   }
 
-  .footer ul li a:hover {
+  .ul li a:hover {
     opacity: 1;
   }
 
