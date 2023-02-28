@@ -12,7 +12,6 @@ body {
   padding-bottom: 6.74rem;
   box-sizing: inherit;
   flex: 1 0 auto;
- 
 }
 
 header {
@@ -45,11 +44,12 @@ header {
 
 aside.sobremi {
   float: left;
-  width: 10%;
+  width: 15%;
   padding: 10px;
-  font-size: 15px;
+  font-size: 16px;
   text-align: justify;
-  margin-left: 100px;
+  margin-left: 150px;
+  margin-right: 90px;
   font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -64,36 +64,39 @@ aside.sobremi {
 }
 
 .receta1 {
-  float: right;
-  margin-right: 10vw;
-  bottom: 10vw;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3vw;
   text-align: center;
-  width: 23%;
+  width: 25%;
 }
 
 .receta3 {
-  float:left ;
-  margin-left: 34vw;
+  float: right;
+  vertical-align: top;
   text-align: center;
-  width: 23%;
+  width: 25%;
+  margin-right: 17vw;
+  
+
 }
 
 .receta2 {
-  float: right;
-  margin-right: 10vw;
-  margin-bottom: 25px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3vw;
   text-align: center;
-  width: 23%;
+  width: 25%;
 }
 
 .receta4 {
   float: right;
-  margin-right: 10vw;
-  margin-bottom: 5vw;
+  vertical-align: top;
+  margin-right: 4vw;
   text-align: center;
-  width: 23%;
+  width: 25%;
+  margin-bottom: 10vw;
 }
-
 #foto {
   object-fit: contain;
   width:100%;
@@ -105,12 +108,10 @@ aside.sobremi {
 }
 
 #texto1,#texto2,#texto3,#texto4 {
-  font-size: 17px;
+  text-align: justify;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-}
-#texto1{
-  margin-bottom: 1px;
 }
 
 .fecha{
