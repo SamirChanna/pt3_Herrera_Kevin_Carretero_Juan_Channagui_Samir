@@ -1,27 +1,147 @@
-#formulario {
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#logo-div img {
+    display:block; 
+    margin:auto;
+    margin-bottom: 10px;
+}
+  
+#nav-div {
+    width: 100%;
+    min-height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+  
+#nav-div ul {
+    list-style: none;
     display: flex;
-    height: 100vh;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    margin:1;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+#nav-div li {
+    margin: 0 20px;
+}
+  
+#nav-div a:hover {
+    color: lightcoral
+}
+  
+#nav-div a {
+    text-decoration: none;
+    color: black
 }
 
 .contenedor {
-    max-width: 700px;
-    width: 100%;
-    background: #fff;
-    padding: 25px 30px;
-    border-radius: 5px;
-    background-color: rgb(53, 53, 53);
+  width: 80%;
+  margin: 50px auto;
 }
 
-.contenedor .titulo {
-    font-size: 25px;
-    font-weight: 500;
+.contact-box {
+  background: #ececec;
+  display: flex;
 }
 
-.contenedor .detalles-usuario {
-    display: flex;
-    flex-wrap: wrap;
+.contact-izquierda {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-derecha {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #7ABA96;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.contenedor p {
+  margin-bottom: 40px;
+}
+
+.input-fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-fila .input-grupo {
+  flex-basis:  45%;
+  
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bbbbbb;
+  outline: none;
+  padding-bottom: 5px;
+  background-color: #ececec;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #b6b6b6;;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ececec;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: #60a07c;
+}
+
+button {
+  background: #60a07c;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
+}
+
+.contact-izquierda h3 {
+  color: #60a07c;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#footer-div {
+  width: 100%;
+  min-height: 60px;
+  background-color: black;
+  line-height: 60px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+}
+
+#footer-div p {
+  margin: 0 20px;
+}
+
+#footer-div a {
+  color: white; 
+  text-decoration: none;
 }
