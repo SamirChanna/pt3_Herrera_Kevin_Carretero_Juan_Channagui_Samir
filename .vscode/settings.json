@@ -1,3 +1,4 @@
 {
-    "git.allowNoVerifyCommit": true
+    "git.allowNoVerifyCommit": true,
+    "liveServer.settings.port": 5501
 }
