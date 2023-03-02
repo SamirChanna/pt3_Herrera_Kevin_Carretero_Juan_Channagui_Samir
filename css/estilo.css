@@ -1,25 +1,32 @@
-html {
-  height: 100%;
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  flex: 0 0 auto;
+  font-family: Arial;
 }
 
-body {
-  margin: 0;
-  min-height: 100%;
-  padding-bottom: 6.74rem;
-  box-sizing: inherit;
-  flex: 1 0 auto;
+#logo-div {
+  width: 100%;
+  min-height: 50px;
+  padding-left: 2%;
+  line-height: 50px;
+  margin-bottom: 10px;
 }
 
-header {
+#logo-div img {
+  display:block; 
+  margin:auto;
+}
+
+#nav-div {
+  width: 100%;
+  min-height: 30px;
   text-align: center;
-  padding: 50px 0;
+  line-height: 30px;
+  margin-bottom: 10px;
 }
 
-.menu {
+#nav-div ul {
   list-style: none;
   display: flex;
   justify-content: center;
@@ -27,148 +34,274 @@ header {
   padding: 0;
   position: relative;
   z-index: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.menu a:hover{
-  color: #7ABA96;
+#nav-div li {
+  margin: 0 20px;
 }
 
-.menu li {
-  margin: 0 10px;
+#nav-div a:hover {
+  color: lightcoral
 }
 
-.menu a {
+#nav-div a {
   text-decoration: none;
-  color: #333;
+  color: black
 }
 
-aside.sobremi {
+
+#sidebar-div {
+  width: 20%;
+  min-height: 1180px;
   float: left;
-  width: 15%;
-  padding: 10px;
-  font-size: 16px;
-  text-align: justify;
-  margin-left: 150px;
-  margin-right: 90px;
-  font-family: Arial, Helvetica, sans-serif;
-
+  line-height: 17px;
+  margin-top: 35px;
 }
 
-#recetas1{
-  display: inline-block;
-
-}
-#recetas2{
-  display: inline-block;
-  top: 200px;
-}
-
-.receta1 {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 3vw;
+#sidebar-div h1 {
+  font-size: 26px;
+  margin-top: 6px;
+  margin-bottom: 22px;
   text-align: center;
-  width: 25%;
 }
 
-.receta3 {
-  float: right;
-  vertical-align: top;
+#imagen-main {
+  display:block; 
+  margin:auto;
+}
+
+#imagen-anuncio {
+  width: 60%;
+  display:block; 
+  margin:auto;
+}
+
+#sidebar-div p {
+  margin-top: 42px;
+  margin-left: 22px;
+}
+
+#sidebar-div section {
+  width: 90%;
+  min-height: 430px;
+  float: left;
+  line-height: 17px;
+  margin-top: 30px;
+  margin-left: 18px;
+  background-color: lightgrey;
+}
+
+#anuncio-section h1 {
+  margin-top: 25px;
+  font-size: 24px;
   text-align: center;
-  width: 25%;
-  margin-right: 17vw;
-  
-
 }
 
-.receta2 {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 3vw;
-  text-align: center;
-  width: 25%;
-}
-
-.receta4 {
-  float: right;
-  vertical-align: top;
-  margin-right: 4vw;
-  text-align: center;
-  width: 25%;
-  margin-bottom: 10vw;
-}
-#foto {
-  object-fit: contain;
-  width:100%;
-  height:100%;
-}
-
-#hr1,#hr2,#hr3,#hr4 {
-  border-color: #7ABA96;
-}
-
-#texto1,#texto2,#texto3,#texto4 {
-  text-align: justify;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-}
-
-.fecha{
+#anuncio-section h2 {
   font-size: 13px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
+  color: grey;
+  text-align: center;
+  
 }
 
-#titulo1,#titulo2,#titulo3,#titulo4 {
+#bodyarea-div {
+  width: 79%;
+  min-height: 400px;
+  float: right;
+  text-align: center;
+  line-height: 400px;
+  padding-left: 80px;
+  padding-right: 120px;
+  margin-top: 35px;
+}
+
+#boton-conseguir {
+  width: 100%;
+  min-height: 20px;
+  float: left;
+  background-color: green;
+  line-height: 20px;
+  margin-top: 15px;
+  bottom:20px
+}
+
+#boton-conseguir h1 {
+  font-size: 22px;
+}
+
+#boton-conseguir a:hover {
+  color: lightgrey;
+}
+#boton-conseguir a {
   color: rgb(0, 0, 0); 
   text-decoration: none;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
 }
 
-
-
-h2 {
-  font-size: 17px;
+.fixvacio::after {
+  content:"";
+  display: block;
+  clear: both;
 }
 
-h1{
-  font-size: 11px;
-}
-
-.sobremi{
-  font-size: 22px;
-  text-align: center;
-}
-
-.menu{
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.anuncio {
-  background-color: yellow;
-  float:left;
-  margin-left: 8vw;
-  color: black;
-  font-size: 24px;
-  padding: 10px;
-  border: 2px solid black;
-}
-
-
-
-footer {
-  margin-bottom: 0vm;
+#footer-div {
+  width: 100%;
+  min-height: 60px;
   background-color: black;
+  line-height: 60px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 20px 0;
   position: static;
   bottom: 0;
+}
+
+#footer-div p {
+  margin: 0 20px;
+}
+
+#footer-div a {
+  color: white; 
+  text-decoration: none;
+}
+
+#wrapper-div {
   width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+#receta1 {
+  width: 46%;
+  min-height: 100px;
+  float: left;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+#receta1 img {
+  width: 100%;
+  margin-bottom: 20px;
+  display:block; 
+}
+
+#receta1 h1 a {
+  color: black; 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#receta1 h2 {
+  font-size: 14px;
+}
+
+#receta1 hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#receta1 h3 {
+  text-align: left;
+  font-size: 14px;
+}
+
+#receta2 {
+  width: 46%;
+  min-height: 100px;
+  float: right;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+#receta2 img {
+  width: 100%;
+  margin-bottom: 20px;
+  display:block; 
+}
+
+#receta2 h1 a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#receta2 h2 {
+  font-size: 14px;
+}
+
+#receta2 hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#receta2 h3 {
+  text-align: left;
+  font-size: 14px;
+}
+
+#receta3 {
+  width: 46%;
+  min-height: 100px;
+  float: right;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+#receta3 img {
+  width: 100%;
+  margin-bottom: 20px;
+  display:block; 
+}
+
+#receta3 h1 a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#receta3 h2 {
+  font-size: 14px;
+}
+
+#receta3 hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#receta3 h3 {
+  text-align: left;
+  font-size: 14px;
+}
+
+#receta4 {
+  width: 46%;
+  min-height: 100px;
+  float: left;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+#receta4 img {
+  width: 100%;
+  margin-bottom: 20px;
+  display:block; 
+}
+
+#receta4 h1 a {
+  color: rgb(0, 0, 0); 
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#receta4 h2 {
+  font-size: 14px;
+}
+
+#receta4 hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+#receta4 h3 {
+  text-align: left;
+  font-size: 14px;
 }
