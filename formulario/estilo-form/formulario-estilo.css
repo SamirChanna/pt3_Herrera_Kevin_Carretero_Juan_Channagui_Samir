@@ -1,0 +1,27 @@
+#formulario {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor {
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+}
+
+.contenedor .titulo {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contenedor .detalles-usuario {
+    display: flex;
+    flex-wrap: wrap;
+}

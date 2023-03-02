@@ -1,61 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Delicias Kitchen</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/estilo.css'>
+</head>
 
-    <head>
-        <meta charset='utf-8'>
-        <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <title>Delicias Kitchen</title>
-        <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-        <link rel="stylesheet" href="../css/estilo.css">
-    </head>
-    <body style="height: 100%;">
+<body>
+    
+    <div id="wrapper-div">
 
-        <header>
-            <img src="../imagenes/delicias.png" alt="Imagen de deliciosas delicias" style="display:block; margin:auto;">
-            <nav>
-              <hr id="hrn">
-              <ul class="menu">
+        <div id="logo-div">
+            <img src="imagenes/delicias.png" alt="Logo">
+        </div>
+
+        <div id="nav-div">
+
+            <hr id="barra-arriba">
+
+            <ul id="opciones">
+
                 <li><a href="../index.html">INICIO</a></li>
                 <li><a href="#">SOBRE MI</a></li>
                 <li><a href="../receta/receta.html">RECETAS</a></li>
                 <li><a href="../contacto/contacto.html">CONTACTO</a></li>
                 <li><a href="../listado/listado.html">LLISTA DE RECEPTES</a></li>
-              </ul>
-              <hr id="hrn">
-            <nav/>
-        </header>
-  
-        <aside class="sobremi">
-          <h1 class="sobremi">Sobre mi</h1>
-          <img src="../imagenes/isagil.png" style="display:block; margin:auto;">
-          <p>Hola bienvenid@ a mi blog, un espacio donde
-              quiero compartir mis recetas vegetarianas y veganas favoritas...</p>
-        </aside>
 
-        <h1 style="text-align: center; font-size: 30px;">En Construcción</h1>
+            </ul>
 
-        <footer style="position: fixed;">
-            <div style="display: flex; justify-content: center;">
-              <p style="margin: 0 20px;">
-                <a href="https://www.facebook.com" style="color: white; text-decoration: none;">FACEBOOK</a>
-              </p>
-              <p style="margin: 0 20px;">
-                <a href="https://www.twitter.com" style="color: white; text-decoration: none;">TWITTER</a>
-              </p>
-              <p style="margin: 0 20px;">
-                <a href="https://www.instagram.com" style="color: white; text-decoration: none;">INSTAGRAM</a>
-              </p>
-              <p style="margin: 0 20px;">
-                <a href="https://www.pinterest.com" style="color: white; text-decoration: none;">PINTEREST</a>
-              </p>
-              <p style="margin: 0 20px;">
-                <a href="mailto:your_email@example.com" style="color: white; text-decoration: none;">EMAIL</a>
-              </p>
-              <p style="margin: 0 20px;">
-                <a href="#" style="color: white; text-decoration: none;">RSS</a>
-              </p>
+            <hr id="barra-abajo">
+
+        </div>
+
+        <div id="main-div" class="fixvacio">
+
+            <div id="sidebar-div">
+                <h1 id="sobremi">Sobre mi</h1>
+
+                <img id="imagen-main" src="imagenes/isagil.png">
+
+                <p>
+                    Hola bienvenid@ a mi blog, un espacio donde quiero compartir mis recetas vegetarianas y veganas favoritas...
+                </p>
+                
+                <section id="anuncio-section">
+                    <h1>
+                        Suscríbete a mi blog
+                    </h1>
+
+                    <img id="imagen-anuncio" src="imagenes/libro.png">
+
+                    <h2>
+                        Y consigue GRATIS mi eBook con 10 recetas exclusivas con superalimentos.
+                    </h2>
+
+                    <div id="boton-conseguir">
+                        <h1>
+                            <a href="http://ejemplo.com" target="_blank">Apúntame</a>
+                        </h1>
+                    </div>
+
+                </section>
+
             </div>
-          </footer>
-    
-    </body>
-</html>
+
+            
+            <div id="footer-div">
+
+              <p>
+                  <a href="https://www.facebook.com">FACEBOOK</a>
+              </p>
+  
+              <p>
+                  <a href="https://www.twitter.com">TWITTER</a>
+              </p>
+  
+              <p>
+                  <a href="https://www.instagram.com">INSTAGRAM</a>
+              </p>
+  
+              <p>
+                  <a href="https://www.pinterest.com">PINTEREST</a>
+              </p>
+  
+              <p>
+                  <a href="https://www.youtube.com/watch?v=9-aVTfdpiiw">EMAIL</a>
+              </p>
+  
+              <p>
+                  <a href="https://www.youtube.com/watch?v=ZDCWdMN7d2s">RSS</a>
+              </p>
+  
+          </div>
+  
+      </div>
+  
+  </body>
