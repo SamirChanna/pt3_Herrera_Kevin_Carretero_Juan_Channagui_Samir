@@ -106,4 +106,109 @@
         <imagen>./fotos/wrap-atun-t.jpg.webp</imagen>
         <link>../listado/receta/html/receta15.html</link>
     </receta>
+    <receta>
+        <titulo>Pollo al horno con verduras</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/pollo.jpg</imagen>
+        <link>../listado/receta/html/receta16.html</link>
+    </receta>
+    <receta>
+        <titulo>Ensalada César</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/Ensalada-cesar.jpg</imagen>
+        <link>../listado/receta/html/receta17.html</link>
+    </receta>
+    <receta>
+        <titulo>Spaghetti a la boloñesa</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/espaguetis.jpg</imagen>
+        <link>../listado/receta/html/receta18.html</link>
+    </receta>
+    <receta>
+        <titulo>Tacos de carne asada</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/tacos.jpg</imagen>
+        <link>../listado/receta/html/receta19.html</link>
+    </receta>
+    <receta>
+        <titulo>Arroz con pollo</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/arrozpollo.jpg</imagen>
+        <link>../listado/receta/html/receta20.html</link>
+    </receta>
+    <receta>
+        <titulo>Sopa de tomate</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/sopa.jpg</imagen>
+        <link>../listado/receta/html/receta21.html</link>
+    </receta>
+    <receta>
+        <titulo>Tortilla de patatas</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/tortilla.jpg</imagen>
+        <link>../listado/receta/html/receta22.html</link>
+    </receta>
+    <receta>
+        <titulo>Curry de pollo</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/curry.jpg</imagen>
+        <link>../listado/receta/html/receta23.html</link>
+    </receta>
+    <receta>
+        <titulo>Pizza margarita</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/pizza.jpg</imagen>
+        <link>../listado/receta/html/receta24.html</link>
+    </receta>
+    <receta>
+        <titulo>Hamburguesa con queso</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/hambur.jpg</imagen>
+        <link>../listado/receta/html/receta25.html</link>
+    </receta>
+    <receta>
+        <titulo>Sushi de salmón</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/sushi.jpg</imagen>
+        <link>../listado/receta/html/receta26.html</link>
+    </receta>
+    <receta>
+        <titulo>Empanadas de carne</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/empanadas.jpg</imagen>
+        <link>../listado/receta/html/receta27.html</link>
+    </receta>
+    <receta>
+        <titulo>Gazpacho andaluz</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/gazpacho.jpg</imagen>
+        <link>../listado/receta/html/receta28.html</link>
+    </receta>
+    <receta>
+        <titulo>Lasagna de carne</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/lasagna.jpg</imagen>
+        <link>../listado/receta/html/receta29.html</link>
+    </receta>
+    <receta>
+        <titulo>Ensalada de quinoa</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/ensalada.jpg</imagen>
+        <link>../listado/receta/html/receta30.html</link>
+    </receta>
 </recetas>
