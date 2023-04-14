@@ -9,10 +9,101 @@
         <link>../listado/receta/html/receta1.html</link>
     </receta>
     <receta>
-        <titulo>Galetes d'avena, rosa i llima</titulo>
+        <titulo>Huevos revueltos con judias verdes</titulo>
         <tiempoprep>15</tiempoprep>
         <dificultad>Fácil</dificultad>
         <imagen>./fotos/huevos-revueltos-judias-verdes-queso-feta-t.jpg.webp</imagen>
         <link>../listado/receta/html/receta2.html</link>
+    </receta>    
+    <receta>
+        <titulo>Bocadillo caprese</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/bocadillito-caprese-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta3.html</link>
+    </receta>
+    <receta>
+        <titulo>Bol de smoothie con tomate pinones i fresas</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/bol-smoothie-tomate-pinones-fresas-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta4.html</link>
+    </receta>
+    <receta>
+        <titulo>Brochetas de salmon</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/brochetas-salmon-age-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta5.html</link>
+    </receta>
+    <receta>
+        <titulo>Chapata de lomo i calabacin</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/chapata-lomo-calabacin-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta6.html</link>
+    </receta>
+    <receta>
+        <titulo>Ensalada de lentejas</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/ensalada-lentejas-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta7.html</link>
+    </receta>
+    <receta>
+        <titulo>Ensalada de pasta pavo i aguacate</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/ensalada-pasta-pavo-aguacate-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta8.html</link>
+    </receta>
+    <receta>
+        <titulo>Penne adobe</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/penne-adobe-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta9.html</link>
+    </receta>
+    <receta>
+        <titulo>Piña</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/pina-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta10.html</link>
+    </receta>
+    <receta>
+        <titulo>Pisto age</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/pisto-age-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta11.html</link>
+    </receta>
+    <receta>
+        <titulo>Revuelto de tofu</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/revuelto-tofu-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta12.html</link>
+    </receta>
+    <receta>
+        <titulo>Tomate</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/tomate-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta13.html</link>
+    </receta>
+    <receta>
+        <titulo>Vieiras de pomelo</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/vieiras-pomelo-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta14.html</link>
+    </receta>
+    <receta>
+        <titulo>Wrap de atun</titulo>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/wrap-atun-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta15.html</link>
     </receta>
 </recetas>
