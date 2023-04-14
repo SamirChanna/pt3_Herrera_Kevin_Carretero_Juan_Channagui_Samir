@@ -3,7 +3,6 @@
 <recetas>
     <receta>
         <titulo>Milojas de clabacín, pimiento rojo y anchoas</titulo>
-        <descripcion>Una salsa vegana per a la pasta, tan saborosa i cremosa que resulta irresistible! Està elaborada amb coliflor i amb altres ingredients vegetals que la converteixen en...</descripcion>
         <tiempoprep>15</tiempoprep>
         <dificultad>Fácil</dificultad>
         <imagen>./fotos/milhojas.webp</imagen>
@@ -11,7 +10,6 @@
     </receta>
     <receta>
         <titulo>Galetes d'avena, rosa i llima</titulo>
-        <descripcion>Galetetes per a Sant Valentí? Aquestes galetes saboroses i cruixents, elaborades amb avena i amb un ric sabor a rosa i llima, són perfectes per celebrar-ho.</descripcion>
         <tiempoprep>15</tiempoprep>
         <dificultad>Fácil</dificultad>
         <imagen>./fotos/huevos-revueltos-judias-verdes-queso-feta-t.jpg.webp</imagen>
