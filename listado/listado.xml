@@ -6,7 +6,7 @@
         <descripcion>Una salsa vegana per a la pasta, tan saborosa i cremosa que resulta irresistible! Està elaborada amb coliflor i amb altres ingredients vegetals que la converteixen en...</descripcion>
         <tiempoprep>15</tiempoprep>
         <dificultad>Fácil</dificultad>
-        <imagen>/fotos/milohjas.webp</imagen>
+        <imagen>./fotos/milhojas.webp</imagen>
         <link>../listado/receta/html/receta1.html</link>
     </receta>
     <receta>
