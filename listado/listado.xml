@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="listado.xsl"?>
 <recetas>
     <receta>
-        <titulo>MILOJAS DE CALABACÍN, PIMIENTO ROJO Y ANCHOAS</titulo>
+        <titulo>Milojas de clabacín, pimiento rojo y anchoas</titulo>
         <descripcion>Una salsa vegana per a la pasta, tan saborosa i cremosa que resulta irresistible! Està elaborada amb coliflor i amb altres ingredients vegetals que la converteixen en...</descripcion>
         <tiempoprep>15</tiempoprep>
         <dificultad>Fácil</dificultad>
@@ -11,14 +11,10 @@
     </receta>
     <receta>
         <titulo>Galetes d'avena, rosa i llima</titulo>
-        <fecha>12 de febrer, 2019</fecha>
         <descripcion>Galetetes per a Sant Valentí? Aquestes galetes saboroses i cruixents, elaborades amb avena i amb un ric sabor a rosa i llima, són perfectes per celebrar-ho.</descripcion>
-        <imagen>../imagenes/galletas.jpg</imagen>
-    </receta>
-    <receta>
-        <titulo>Carabassons farcits d'arròs negre i carbassa</titulo>
-        <fecha>18 de desembre, 2018</fecha>
-        <descripcion>Aquests carabassons farcits d'arròs negre i carbassa que et proposo avui, són l'última recepta que publico al blog en...</descripcion>
-        <imagen>../imagenes/calabacines.jpg</imagen>
+        <tiempoprep>15</tiempoprep>
+        <dificultad>Fácil</dificultad>
+        <imagen>./fotos/huevos-revueltos-judias-verdes-queso-feta-t.jpg.webp</imagen>
+        <link>../listado/receta/html/receta2.html</link>
     </receta>
 </recetas>
