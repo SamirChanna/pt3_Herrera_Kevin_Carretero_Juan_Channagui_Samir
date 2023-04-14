@@ -28,7 +28,7 @@
     
 }
 
-h2 a:hover {
+a:hover {
     color: lightgrey;
   
   }
@@ -38,9 +38,11 @@ h1 {
     text-align: left;
    
 }
-
-h2 a{
+h2{
     font-size: 20px;
+}
+a{
+    
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
