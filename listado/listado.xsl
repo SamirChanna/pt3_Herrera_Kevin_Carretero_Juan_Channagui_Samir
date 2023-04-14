@@ -48,7 +48,7 @@
                   </a>
                   <img src="{imagen}" alt="{imagen}" />
                   <div id="contenido">
-                    <h3>Tiempo de preparación: <xsl:value-of select="tiempoprep"/>minutos</h3>
+                    <h3>Tiempo de preparación: <xsl:value-of select="tiempoprep"/> minutos</h3>
                     <h3>Dificultad: <xsl:value-of select="dificultad"/></h3>
                   </div>
                   <hr id="separador"/>
