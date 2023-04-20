@@ -15,10 +15,10 @@
           <div id="nav-div">
             <hr id="barra-arriba"/>
             <ul id="opciones">
-              <li><a href="/index.html">INICI</a></li>
+              <li><a href="../index.html">INICI</a></li>
               <li><a href="#">SOBRE MI</a></li>
-              <li><a href="/formulario/form.html">CONTACTE</a></li>
-              <li><a href="/listado/listado.html">LLISTA DE RECEPTES</a></li>
+              <li><a href="../formulario/form.html">CONTACTE</a></li>
+              <li><a href="./listado.xml">LLISTA DE RECEPTES</a></li>
             </ul>
             <hr id="barra-abajo"/>
           </div>
